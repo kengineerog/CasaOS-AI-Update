@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 
 services:
   litellm:
@@ -7,8 +7,14 @@ services:
     restart: unless-stopped
     ports:
       - "4000:4000"
+    environment:
+      - LITELLM_LOG=true
     volumes:
       - litellm_config:/app
+    x-casaos:
+      ports:
+        - container: "4000"
+          description: LiteLLM Dashboard & API
 
 volumes:
   litellm_config:
