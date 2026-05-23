@@ -2,7 +2,7 @@
   "id": "openwebui",
   "name": "Open WebUI",
   "version": "1.0.0",
-  "author": "YourUsername",
+  "author": "kengineerog",
   "description": "The best full-featured web UI for LLMs. Supports multiple Ollama instances + LiteLLM.",
   "tagline": "Beautiful LLM Chat UI",
   "icon": "icon.png",
