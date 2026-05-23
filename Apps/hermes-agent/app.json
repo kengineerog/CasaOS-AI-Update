@@ -3,10 +3,10 @@
   "name": "Hermes Agent",
   "version": "1.0.0",
   "author": "kengineerog",
-  "description": "Powerful self-improving AI agent from Nous Research. Uses LiteLLM as backend.",
-  "tagline": "Autonomous AI Agent",
+  "description": "Powerful self-improving AI agent from Nous Research.",
   "icon": "icon.png",
-  "tip": "Main API on port 8642. Connect WebUI or Open WebUI to it.",
-  "website": "https://hermes-agent.nousresearch.com",
+  "tagline": "Autonomous AI Agent",
+  "website": "https://nousresearch.com",
+  "tip": "API on port 8642",
   "compose": "docker-compose.yml"
 }
