@@ -1,7 +1,27 @@
 [
   {
-    "name": "Coolstore",
+    "name": "AI",
+    "font": "brain",
+    "description": "AI Agents, LLMs and Tools"
+  },
+  {
+    "name": "LLM",
+    "font": "robot",
+    "description": "Local LLM Runners & Proxies"
+  },
+  {
+    "name": "Chat UI",
+    "font": "chat-processing-outline",
+    "description": "Web Interfaces for LLMs"
+  },
+  {
+    "name": "Developer",
+    "font": "code-greater-than-or-equal",
+    "description": "Development & Proxy Tools"
+  },
+  {
+    "name": "CasaOS-AI-Update",
     "font": "snow",
-    "description": ""
+    "description": "An AI overhaul for CasaOS"
   }
 ]
