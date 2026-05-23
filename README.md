@@ -1,1 +1,3 @@
-a 3rd party app store for casaos with ai apps. 
+# CasaOS AI Update
+
+AI-focused third-party app store for CasaOS
