@@ -1,0 +1,12 @@
+{
+  "id": "ollama1",
+  "name": "Ollama 1",
+  "version": "1.0.0",
+  "author": "YourUsername",
+  "description": "Ollama instance 1 running on port 11435. Great for different cloud sign-ins or model sets.",
+  "tagline": "Local LLM Runner #1",
+  "icon": "icon.png",
+  "tip": "Access at http://YOUR_IP:11435",
+  "website": "https://ollama.com",
+  "compose": "docker-compose.yml"
+}

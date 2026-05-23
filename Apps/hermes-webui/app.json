@@ -1,0 +1,12 @@
+{
+  "id": "hermes-webui",
+  "name": "Hermes WebUI",
+  "version": "1.0.0",
+  "author": "Your GitHub Username",
+  "description": "Beautiful lightweight web interface for Hermes Agent. Install separately from the agent.",
+  "tagline": "Hermes Web GUI",
+  "icon": "icon.png",
+  "tip": "Access at port 8787. Point it to your Hermes Agent.",
+  "website": "https://github.com/nesquena/hermes-webui",
+  "compose": "docker-compose.yml"
+}

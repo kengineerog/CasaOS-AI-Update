@@ -1,0 +1,12 @@
+{
+  "id": "hermes-agent",
+  "name": "Hermes Agent",
+  "version": "1.0.0",
+  "author": "Your GitHub Username",
+  "description": "Powerful self-improving AI agent from Nous Research. Uses LiteLLM as backend.",
+  "tagline": "Autonomous AI Agent",
+  "icon": "icon.png",
+  "tip": "Main API on port 8642. Connect WebUI or Open WebUI to it.",
+  "website": "https://hermes-agent.nousresearch.com",
+  "compose": "docker-compose.yml"
+}

@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:main   # Always latest
+    container_name: openwebui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
+    volumes:
+      - openwebui_data:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URLS=http://ollama1:11434,http://ollama2:11434   # Connects to both your Ollama instances
+      # Add more if you want: ,http://litellm:4000
+    x-casaos:
+      ports:
+        - container: "8080"
+          description: Open WebUI Interface
+
+volumes:
+  openwebui_data:

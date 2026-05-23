@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  hermes-webui:
+    image: ghcr.io/nesquena/hermes-webui:latest
+    container_name: hermes-webui
+    restart: unless-stopped
+    ports:
+      - "8787:8787"
+    environment:
+      - HERMES_API_URL=http://hermes-agent:8642
+      - HERMES_API_KEY=sk-casaos
+    depends_on:
+      - hermes
+    x-casaos:
+      ports:
+        - container: "8787"
+          description: Hermes WebUI (Nice GUI)
+
+# Optional: If you want it to work even without installing hermes-agent first, you can change the URL to point to external later

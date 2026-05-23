@@ -1,0 +1,12 @@
+{
+  "id": "litellm",
+  "name": "LiteLLM",
+  "version": "1.0.0",
+  "author": "YourName",
+  "description": "Unified LLM proxy supporting 100+ providers. Perfect backend for Hermes Agent.",
+  "icon": "icon.png",
+  "tagline": "LLM Gateway",
+  "website": "https://docs.litellm.ai/",
+  "tip": "Access at http://YOUR_IP:4000",
+  "compose": "docker-compose.yml"
+}

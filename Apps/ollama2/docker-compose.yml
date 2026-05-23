@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  ollama2:
+    image: ollama/ollama:latest
+    container_name: ollama2
+    restart: unless-stopped
+    ports:
+      - "11436:11434"   # Host port 11436 → Container 11434
+    volumes:
+      - ollama2_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      # Customize cloud settings here differently from Ollama 1
+      # - OLLAMA_NO_CLOUD=0
+    x-casaos:
+      ports:
+        - container: "11434"
+          description: Ollama API (Instance 2)
+
+volumes:
+  ollama2_data:
