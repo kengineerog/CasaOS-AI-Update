@@ -2,7 +2,7 @@
   "id": "hermes-agent",
   "name": "Hermes Agent",
   "version": "1.0.0",
-  "author": "Your GitHub Username",
+  "author": "kengineerog",
   "description": "Powerful self-improving AI agent from Nous Research. Uses LiteLLM as backend.",
   "tagline": "Autonomous AI Agent",
   "icon": "icon.png",
