@@ -3,10 +3,10 @@
   "name": "Hermes WebUI",
   "version": "1.0.0",
   "author": "kengineerog",
-  "description": "Beautiful lightweight web interface for Hermes Agent. Install separately from the agent.",
-  "tagline": "Hermes Web GUI",
+  "description": "Beautiful web interface for Hermes Agent.",
   "icon": "icon.png",
-  "tip": "Access at port 8787. Point it to your Hermes Agent.",
-  "website": "https://github.com/nesquena/hermes-webui",
+  "tagline": "Hermes GUI",
+  "website": "",
+  "tip": "Access at port 8787",
   "compose": "docker-compose.yml"
 }
