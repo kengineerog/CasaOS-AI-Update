@@ -2,7 +2,7 @@
   "id": "litellm",
   "name": "LiteLLM",
   "version": "1.0.0",
-  "author": "YourName",
+  "author": "kengineerog",
   "description": "Unified LLM proxy supporting 100+ providers. Perfect backend for Hermes Agent.",
   "icon": "icon.png",
   "tagline": "LLM Gateway",
